@@ -1,0 +1,8 @@
+
+
+GET 127.0.0.1:8000/funda-link
+
+{
+    "address": "  Jonkerplantsoen 13 ", 
+    "postcode": "1508 EE"
+}
