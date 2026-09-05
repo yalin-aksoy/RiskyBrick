@@ -1,8 +1,29 @@
 
 
-GET 127.0.0.1:8000/funda-link
+GET http://127.0.0.1:8000/api/funda-link
 
 {
-    "address": "  Jonkerplantsoen 13 ", 
+    "address": "Jonkerplantsoen 13",
     "postcode": "1508 EE"
 }
+
+###
+
+GET http://127.0.0.1:8000/api/bag/property?address=Jonkerplantsoen%2013&postcode=1508%20EE
+
+###
+
+GET http://127.0.0.1:8000/api/foundation-stability?address=Jonkerplantsoen%2013&postcode=1508%20EE&region=zaanstad
+
+###
+
+GET http://127.0.0.1:8000/api/risk-info?address=Jonkerplantsoen%2013&postcode=1508%20EE&region=zaanstad
+
+
+###
+
+GET http://127.0.0.1:8000/api/risk-info?address=Anemoonstraat%2039&postcode=1541%20AT&region=zaanstad
+
+###
+
+GET http://127.0.0.1:8000/api/risk-info?address=Stationsstraat%2066&postcode=1506%20DH&region=zaanstad
